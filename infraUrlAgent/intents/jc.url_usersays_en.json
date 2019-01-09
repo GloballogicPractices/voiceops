@@ -1,0 +1,114 @@
+[
+  {
+    "id": "5e0c2b32-b2d6-430f-9e5f-30d94389e5ff",
+    "data": [
+      {
+        "text": "Development",
+        "alias": "jc-env",
+        "meta": "@jc-env",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kibana",
+        "alias": "jc-url",
+        "meta": "@jc-url",
+        "userDefined": false
+      },
+      {
+        "text": " url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "527ef777-cd06-4b32-ad5a-f36a1edbfe73",
+    "data": [
+      {
+        "text": "Please fetch ",
+        "userDefined": false
+      },
+      {
+        "text": "dev",
+        "alias": "jc-env",
+        "meta": "@jc-env",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kibana",
+        "alias": "jc-url",
+        "meta": "@jc-url",
+        "userDefined": false
+      },
+      {
+        "text": " url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1508057275
+  },
+  {
+    "id": "4095c170-41d1-4f07-9a1f-019c92c9e2a9",
+    "data": [
+      {
+        "text": "dev",
+        "alias": "jc-env",
+        "meta": "@jc-env",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kibana",
+        "alias": "jc-url",
+        "meta": "@jc-url",
+        "userDefined": false
+      },
+      {
+        "text": " url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3223e666-dc48-4aa8-8b52-71f4a3afde26",
+    "data": [
+      {
+        "text": "kibana",
+        "alias": "jc-url",
+        "meta": "@jc-url",
+        "userDefined": false
+      },
+      {
+        "text": " url of ",
+        "userDefined": false
+      },
+      {
+        "text": "dev",
+        "alias": "jc-env",
+        "meta": "@jc-env",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

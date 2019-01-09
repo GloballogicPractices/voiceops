@@ -1,0 +1,40 @@
+import os
+import json
+import random
+from httplib import HTTPException
+from urllib2 import HTTPError, URLError
+
+from flask import Flask, jsonify, make_response, request
+
+app = Flask(__name__)
+log = app.logger
+
+
+@app.route('/' , methods=['POST'])
+def webhook():
+    req = request.get_json(silent=True, force=True)
+    
+    print("Request:")
+    print(json.dumps(req))
+    jobName=req["queryResult"]["parameters"]["jobName"]
+    os.system('curl -k -X POST https://sebuild.test.com:12443/job/'+jobName+'/build --user myuser:mypassowrd')
+    return jsonify(req)
+
+webhookinput = (webhook)
+
+print webhookinput
+
+#if __name__ == '__main__':
+#    PORT = 8080
+#
+#    app.run(
+#        debug=True,
+#        port=PORT,
+#        host='0.0.0.0'
+#    )
+if __name__ == '__main__':
+    port = int(os.getenv('PORT', 8080))
+
+    print "Starting app on port %d" % port
+
+    app.run(debug=True, port=port, host='0.0.0.0')

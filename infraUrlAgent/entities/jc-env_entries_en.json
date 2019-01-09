@@ -1,0 +1,44 @@
+[
+  {
+    "value": "prod",
+    "synonyms": [
+      "prod",
+      "production",
+      "pd"
+    ]
+  },
+  {
+    "value": "sit",
+    "synonyms": [
+      "sit"
+    ]
+  },
+  {
+    "value": "stage",
+    "synonyms": [
+      "stage",
+      "stg"
+    ]
+  },
+  {
+    "value": "preprod",
+    "synonyms": [
+      "preprod",
+      "pp",
+      "preproduction"
+    ]
+  },
+  {
+    "value": "dev",
+    "synonyms": [
+      "development",
+      "devel"
+    ]
+  },
+  {
+    "value": "dev",
+    "synonyms": [
+      "dev"
+    ]
+  }
+]

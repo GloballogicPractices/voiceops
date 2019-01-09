@@ -1,0 +1,48 @@
+{
+  "id": "05e45b8d-de1e-4179-9628-44f26d0fe0e7",
+  "name": "job.execute",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job.execute",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ad0d9e85-987e-4eb9-bb0c-a0a03a3a7669",
+          "required": true,
+          "dataType": "@jobName",
+          "name": "jobName",
+          "value": "$jobName",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hi there, How may i help you?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hey there, I am voice based Stanley, how may i help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539278183,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

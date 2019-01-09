@@ -1,0 +1,55 @@
+{
+  "id": "c1dbb6b3-87f2-4d3b-8fdc-c88281e99160",
+  "name": "jc.url",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "jc.url",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "25a6023c-e4f3-4b49-bbc1-d03c595f0f18",
+          "dataType": "@jc-url",
+          "name": "jc-url",
+          "value": "$jc-url",
+          "isList": false
+        },
+        {
+          "id": "3c4abc36-9d30-4de4-981d-5f721badf1d4",
+          "required": true,
+          "dataType": "@jc-env",
+          "name": "jc-env",
+          "value": "$jc-env",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you specify Envirnoment?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508062864,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}
